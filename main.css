@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin:30px 0 0 0;
+    height: 100vh;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0);
+}
+.brand h1{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    overflow:hidden;
+}
+.image-view{
+    width:100%;
+}
+img{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.main-body-section{
+    margin:50px 0;
+}
+.details-more-heading{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+.details-heading{
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 71px;
+letter-spacing: -0.035em;
+color: #333333;
+}
+.details-more-heading p{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    margin: 30px 0;
+}
+button{
+    background-color: #333333;
+    color:white;
+    border:none;
+    padding:15px;
+    transition: ease-in-out 0.99s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color:#333333;
+}
+
+
+footer{
+    text-align:center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+
+@media(min-width: 740px){
+    .main-body-section{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        
+    }
+    .details-heading{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 55px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    }
+    .details-more-heading{
+        margin:30px 0;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        color: #4F4F4F;
+
+        
+    }
+    .image-view{
+        width:48%;
+    }
+    .details{
+        width:40.5%;
+    }
+}
